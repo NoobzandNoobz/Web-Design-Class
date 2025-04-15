@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdowns and Accordions homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
+  <script src='main.js'></script>
+</head>
+<body>
+  <div class="w3-panel">
+    <h2> Fun Facts About Bees</h2>
+  </div>
+
+<div class="w3-container">
+  <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-theme-l2 w3-left-align"
+  style="width: 50%">1. What ancient civilization was the first to practice organized beekeeping? &#9660;</button>
+  <div id="Demo1" class="w3-container w3-hide">
+    <h4>Egypt began widespread organized beekeeping in 2500 BCE.</h4>
+  </div> 
+</div> 
+<br>
+<br>
+<!-- repeat the code two or three times for additional questions-->
+<div class="w3-container">
+  <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-theme-l1 w3-left-align"
+  style="width: 50%">2. For how long have bees been around on earth? &#9660;</button>
+  <div id="Demo2" class="w3-container w3-hide">
+    <h4>Over 100 milion years!</h4>
+  </div> 
+</div> 
+<br>
+<br>
+
+<div class="w3-container">
+  <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-theme w3-left-align"
+  style="width: 50%">3. How long can a queen bee live? &#9660;</button>
+  <div id="Demo3" class="w3-container w3-hide">
+    <h4>The average lifespan of a queen bee is 2-3 years, but some have lived for as long as 5 years!</h4>
+  </div> 
+</div> 
+<br>
+<br>
+
+<div class="w3-container">
+  <button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-theme-d1 w3-left-align"
+  style="width: 50%">4. How do bees survive in the cold? &#9660;</button>
+  <div id="Demo4" class="w3-container w3-hide">
+    <h4>If temperatures fall to below 50 degrees fahrenheit, bees will rapidly shiver and form a ball around their queen, keeping her at a nice and warm 90-100 degrees fahrenheit!</h4>
+  </div> 
+</div> 
+<br>
+<br>
+
+<div class="w3-container">
+  <button onclick="myFunction('Demo5')" class="w3-btn w3-block w3-theme-d2 w3-left-align"
+  style="width: 50%">5. How do honey bees dispose of corpses? &#9660;</button>
+  <div id="Demo5" class="w3-container w3-hide">
+    <h4>When a honey bee knows that they are nearing the end of their lifespan, they will leave the hive as to not trouble the other bees with disposing of their corpse.</h4>
+  </div> 
+</div> 
+<br>
+<br>
+<!-- footer with your name on it -->
+
+<div>
+    <footer>  
+      <div class="w3-panel w3-center">
+        <a href="../../index.html">Home</a>
+        <h5>dsahnjddasdasgsh, 2025</h5>
+      <div> 
+    </footer>
+</div>
+
+<!-- DO NOT CHANGE THE SCRIPT -->
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+</body>
+</html>
+
+ 
+
