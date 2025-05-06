@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <style>
+            .flexitem, .flexitem > * {
+                all:inherit;
+                width:200px;
+                height:200px;
+            }
+        </style>
+    </head>
+<body>
+
+ <!-- create a container for your page-->
+<div class="w3-container">
+     <!-- create a flexbox div inside the main container, make sure to add a style attribute-->
+    <div class="w3-flex" style="flex-direction: column; gap: 10px; flex-wrap: wrap; justify-content: center; align-items: center;">
+        <!-- add five items with class="flexitem" inside the flexbox-->
+        <div class="flexitem"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Icosahedron.svg/1024px-Icosahedron.svg.png"></div>
+        <div class="flexitem"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cube-h.svg/800px-Cube-h.svg.png"></div>
+        <div class="flexitem"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetrahedron.svg/250px-Tetrahedron.svg.png"></div>
+        <div class="flexitem"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dodecahedron.svg/1024px-Dodecahedron.svg.png"></div>
+        <div class="flexitem"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Octahedron.jpg"></div>
+     <!-- close flexbox-->
+    </div>
+<!-- close main container-->
+</div>
+
+<footer> 
+    <div class="w3-panel w3-center">
+        <!-- add link back to homepage and credits-->
+        <a href="index.html">Home</a>
+        <em>Insert Name Here, 202x</em>
+    <div>
+</footer>
+</body>
+</html>
